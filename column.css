@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Noto Sans";
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9%;
+    min-width: 200px;
+}
+
+.container {
+    width: 700px;
+    display: flex;
+}
+
+strong {
+    font-size: 14px;
+    font-family: Verdana;
+}
+
+
+.top-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.top-grid:nth-child(1) {
+    height: 50px;
+
+}
+
+.top-grid:nth-child(2) {
+    height: 160px;
+
+}
+
+
+.mid-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.mid-grid:nth-child(1) {
+    height: 50px;
+
+}
+
+.mid-grid:nth-child(2) {
+    height: 160px;
+
+}
+
+.bottom-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.bottom-grid:nth-child(1) {
+    height: 50px;
+
+}
+
+.bottom-grid:nth-child(2) {
+    height: 160px;
+}
+
+
+.grid-item:first-child {
+    background-color: #E28525;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 10px 20px;
+    color: white;
+}
+
+.grid-item:first-child button {
+    color: #E28525;
+}
+
+.grid-item:first-child form button:active {
+    background: #E28525;
+    color: white;
+    border-color: rgb(247, 244, 244);
+    cursor: grab;
+}
+
+
+.grid-item:nth-child(2) {
+    background: #016972;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 10px 20px;
+    color: white;
+}
+
+.grid-item:nth-child(2) button {
+    color: #016972;
+}
+
+.grid-item:nth-child(2) form button:active {
+    background: #016972;
+    color: white;
+    border-color: rgb(247, 244, 244);
+    cursor: grab;
+}
+
+
+.grid-item:nth-child(3) {
+    background: #00403F;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 10px 20px;
+    color: white;
+}
+
+.grid-item:nth-child(3) button {
+    color: #00403F;
+}
+
+.grid-item:nth-child(3) form button:active {
+    background: #00403F;
+    color: white;
+    border-color: rgb(247, 244, 244);
+    cursor: grab;
+}
+
+
+
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 4em;
+    border-color: aliceblue;
+}
+
+/* h5{
+    font-size: 10px;
+} */
